@@ -1,0 +1,32 @@
+{
+    "name": "raryk/highlight",
+    "type": "library",
+    "description": "A small library for cutting links and searching",
+    "keywords": [
+        "raryk",
+        "highlight"
+    ],
+    "homepage": "https://github.com/raryk/highlight",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andriy Raryk",
+            "email": "lole091200@gmail.com",
+            "homepage": "https://andriyr.pp.ua",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~7.0|~8.0",
+        "ext-ctype": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Raryk\\Highlight\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
